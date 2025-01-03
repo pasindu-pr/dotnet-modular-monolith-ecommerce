@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35431.28
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FB9948AD-2A08-430E-BFB9-BFEA1B723892}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecommerce.Api", "src\API\Ecommerce.Api\Ecommerce.Api.csproj", "{5CD92780-D4E2-4298-AB32-9C168BE5EA62}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7CF42A0A-F5CB-487B-9F8E-D1B4A2815955}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{53D7B1AF-D5E9-49DB-80B0-BAABBC069E32}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{D01DA119-0B9B-4DB8-8DE3-2EFA50A48E8B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{271373E1-C4D4-4472-B6D6-B2AF8FBC76A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecommerce.Modules.Catalog.Application", "src\Modules\Catalog\Ecommerce.Modules.Catalog.Application\Ecommerce.Modules.Catalog.Application.csproj", "{7F73C4E5-45A4-4BFC-9C90-1E08AE739B0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecommerce.Modules.Catalog.Domain", "src\Modules\Catalog\Ecommerce.Modules.Catalog.Domain\Ecommerce.Modules.Catalog.Domain.csproj", "{C2F61712-11F6-4FAA-9CFC-1AF55BDFE8C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecommerce.Modules.Catalog.Insfrastructure", "src\Modules\Catalog\Ecommerce.Modules.Catalog.Insfrastructure\Ecommerce.Modules.Catalog.Insfrastructure.csproj", "{1EF7B6FC-06AB-4124-97A7-05DFE345DA93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecommerce.Modules.Catalog.Presentation", "src\Modules\Catalog\Ecommerce.Modules.Catalog.Presentation\Ecommerce.Modules.Catalog.Presentation.csproj", "{638956BE-EB35-4B9B-A666-3D82B53D7017}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CD92780-D4E2-4298-AB32-9C168BE5EA62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CD92780-D4E2-4298-AB32-9C168BE5EA62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CD92780-D4E2-4298-AB32-9C168BE5EA62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CD92780-D4E2-4298-AB32-9C168BE5EA62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F73C4E5-45A4-4BFC-9C90-1E08AE739B0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F73C4E5-45A4-4BFC-9C90-1E08AE739B0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F73C4E5-45A4-4BFC-9C90-1E08AE739B0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F73C4E5-45A4-4BFC-9C90-1E08AE739B0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2F61712-11F6-4FAA-9CFC-1AF55BDFE8C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2F61712-11F6-4FAA-9CFC-1AF55BDFE8C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2F61712-11F6-4FAA-9CFC-1AF55BDFE8C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2F61712-11F6-4FAA-9CFC-1AF55BDFE8C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EF7B6FC-06AB-4124-97A7-05DFE345DA93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EF7B6FC-06AB-4124-97A7-05DFE345DA93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EF7B6FC-06AB-4124-97A7-05DFE345DA93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EF7B6FC-06AB-4124-97A7-05DFE345DA93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{638956BE-EB35-4B9B-A666-3D82B53D7017}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{638956BE-EB35-4B9B-A666-3D82B53D7017}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{638956BE-EB35-4B9B-A666-3D82B53D7017}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{638956BE-EB35-4B9B-A666-3D82B53D7017}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5CD92780-D4E2-4298-AB32-9C168BE5EA62} = {53D7B1AF-D5E9-49DB-80B0-BAABBC069E32}
+		{53D7B1AF-D5E9-49DB-80B0-BAABBC069E32} = {7CF42A0A-F5CB-487B-9F8E-D1B4A2815955}
+		{D01DA119-0B9B-4DB8-8DE3-2EFA50A48E8B} = {7CF42A0A-F5CB-487B-9F8E-D1B4A2815955}
+		{271373E1-C4D4-4472-B6D6-B2AF8FBC76A2} = {D01DA119-0B9B-4DB8-8DE3-2EFA50A48E8B}
+		{7F73C4E5-45A4-4BFC-9C90-1E08AE739B0B} = {271373E1-C4D4-4472-B6D6-B2AF8FBC76A2}
+		{C2F61712-11F6-4FAA-9CFC-1AF55BDFE8C0} = {271373E1-C4D4-4472-B6D6-B2AF8FBC76A2}
+		{1EF7B6FC-06AB-4124-97A7-05DFE345DA93} = {271373E1-C4D4-4472-B6D6-B2AF8FBC76A2}
+		{638956BE-EB35-4B9B-A666-3D82B53D7017} = {271373E1-C4D4-4472-B6D6-B2AF8FBC76A2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A2376E7-A30C-42CB-B7B5-0C4A85C717AF}
+	EndGlobalSection
+EndGlobal
